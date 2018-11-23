@@ -1,0 +1,60 @@
+.todos-toolbar {
+    border-top: 1px solid #e5dada;
+    width:100%;
+    padding: 32px 8px;
+    box-sizing: border-box;
+}
+
+    .todos-toolbar_filters{
+        float: left;
+        width: 40%;
+        text-align: center;
+    }
+
+        .todos-toolbar_filters-item {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: white;
+            font-size: 14px;
+            color: #252020;
+            outline: none;
+            cursor: pointer;
+            border: 1px solid transparent;
+            border-radius: 5px;
+        }
+
+        .todos-toolbar_filters-item.__selected {
+            border: 1px solid #e5dada;
+        }
+
+        .todos-toolbar_clear-completed {
+            float: right;
+            width: 20%;
+            margin-left: auto;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: white;
+            font-size: 14px;
+            color: #252020;
+            outline: none;
+            text-align: right;
+            border: 1px solid transparent;
+            border-radius: 5px;
+        }
+        
+          .todos-toolbar_clear-completed:hover,
+          .todos-toolbar_filters-item:hover {
+              border: 1px solid #EBDFDF;
+          }
+          
+          .todos-toolbar_clear-completed:active,
+          .todos-toolbar_filters-item:active {
+              border-color: #61C3B1;
+          }
+          
+        .todos-toolbar_unready-counter{
+            float: left;
+            width: 30%;
+            font-size: 14px;
+            border: 1px solid transparent;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            color: #252020;
+        }
